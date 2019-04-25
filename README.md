@@ -1,5 +1,7 @@
 # meta
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/meta.svg)](https://greenkeeper.io/)
+
 introduction to the organization and cross-repo issues
 
 <!-- status badges -->
