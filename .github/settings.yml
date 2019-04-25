@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: meta
+  description: introduction to the organization and cross-repo issues
+  homepage: 'https://github.com/form8ion/meta#readme'
+  private: false
