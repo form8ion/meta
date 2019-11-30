@@ -7,10 +7,45 @@ introduction to the organization and cross-repo issues
 <!-- status badges -->
 [![Build Status][ci-badge]][ci-link]
 
+## Goals of this Organization
+
 <!-- consumer badges -->
 [![MIT license][license-badge]][license-link]
 
-## Contributing
+The projects under this organization (as well as some yet to be migrated from
+[my personal account](https://github.com/travi)) are mostly a codification of
+decisions I've made over time around how I prefer projects to be configured and
+organized.
+
+This was created to make _my_ life easier, but the tools are configurable for
+various contexts. I do have additional configurability in mind for future
+evolution, but if making something more configurable would make things easier
+for you, please [open an issue](https://github.com/form8ion/meta/issues/new) so
+we can discuss. I may be hesitant to accept changes that aren't helpful to me,
+but I'm always open to at least discussing.
+
+## Usage
+
+### Project Scaffolding
+
+The project scaffolding tools make it easy to create a new project using the
+structure that I've found to work well.
+
+They are intended to be run from your own CLI, so they provide only a
+programmatic interface that can be imported into your existing tool. If you
+need to create a new CLI tool, you can refer to
+[my `commander` instance](https://github.com/travi/cli) or the
+[form8ion `yargs` instance](https://github.com/form8ion/utils-cli).
+[oclif](https://www.npmjs.com/package/oclif) is also worth considering, but I
+personally have not tried that framework yet.
+
+Once you have a CLI available, start with the
+[project-scaffolder](https://github.com/travi/project-scaffolder), where you
+can [configure](https://github.com/travi/project-scaffolder#options) your
+personal or organizational details and include other
+[supporting scaffolder plugins](https://github.com/form8ion/awesome#scaffolding).
+
+## Contributing to this Documentation
 
 <!-- contribution badges -->
 [![Conventional Commits][commit-convention-badge]][commit-convention-link]
