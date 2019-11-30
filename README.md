@@ -1,7 +1,5 @@
 # meta
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/meta.svg)](https://greenkeeper.io/)
-
 introduction to the organization and cross-repo issues
 
 <!-- status badges -->
@@ -51,6 +49,7 @@ personal or organizational details and include other
 [![Conventional Commits][commit-convention-badge]][commit-convention-link]
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/meta.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
