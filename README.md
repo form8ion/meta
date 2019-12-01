@@ -7,9 +7,6 @@ introduction to the organization and cross-repo issues
 
 ## Goals of this Organization
 
-<!-- consumer badges -->
-[![MIT license][license-badge]][license-link]
-
 The projects under this organization (as well as some yet to be migrated from
 [my personal account](https://github.com/travi)) are mostly a codification of
 decisions I've made over time around how I prefer projects to be configured and
@@ -23,6 +20,9 @@ we can discuss. I may be hesitant to accept changes that aren't helpful to me,
 but I'm always open to at least discussing.
 
 ## Usage
+
+<!-- consumer badges -->
+[![MIT license][license-badge]][license-link]
 
 ### Project Scaffolding
 
