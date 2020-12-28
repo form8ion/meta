@@ -13,7 +13,8 @@ introduction to the organization and cross-repo issues
 The projects under this organization (as well as some yet to be migrated from
 [my personal account](https://github.com/travi)) are mostly a codification of
 decisions I've made over time around how I prefer projects to be configured and
-organized.
+organized. This helps me keep my projects consistent and also greatly reduces
+the burden of remembering or making fresh decisions for each new project.
 
 This was created to make _my_ life easier, but the tools are configurable for
 various contexts. I do have additional configurability in mind for future
@@ -30,24 +31,42 @@ but I'm always open to at least discussing.
 
 <!--consumer-badges end -->
 
-### Project Scaffolding
+### Prerequisites
 
-The project scaffolding tools make it easy to create a new project using the
-structure that I've found to work well.
+#### CLI Wrapper
 
-They are intended to be run from your own CLI, so they provide only a
-programmatic interface that can be imported into your existing tool. If you
+Theses are intended to be run from your own CLI, so they provide only a
+programmatic interface that can be imported into your existing tool.
+
+If you
 need to create a new CLI tool, you can refer to
 [my `commander` instance](https://github.com/travi/cli) or the
 [form8ion `yargs` instance](https://github.com/form8ion/utils-cli).
 [oclif](https://www.npmjs.com/package/oclif) is also worth considering, but I
 personally have not tried that framework yet.
 
-Once you have a CLI available, start with the
-[project-scaffolder](https://github.com/travi/project-scaffolder), where you
-can [configure](https://github.com/travi/project-scaffolder#options) your
-personal or organizational details and include other
+
+### Project Scaffolding
+
+The project scaffolding tools make it easy to create a new project using the
+structure that I've found to work well.
+
+Within [your CLI](#cli-wrapper), start by adding the
+[project-scaffolder](https://github.com/travi/project-scaffolder) as a
+sub-command. Here, you can [configure](https://github.com/travi/project-scaffolder#options)
+your personal or organizational details and include other
 [supporting scaffolder plugins](https://github.com/form8ion/awesome#scaffolding).
+
+### Lifting Existing Projects
+
+While codification of decisions can be a big help for improving consistency of
+projects, conventions do change over time. Projects that were created at an
+earlier point in time have likely drifted away from the current conventions.
+
+[lift](https://github.com/form8ion/lift) intends to improve this situation by
+applying codified decisions to existing projects to update key details to align
+with current conventions. The `lift` tool can be added as an additional
+sub-command to [your CLI](#cli-wrapper).
 
 ## Contributing to this Documentation
 
