@@ -45,7 +45,6 @@ need to create a new CLI tool, you can refer to
 [oclif](https://www.npmjs.com/package/oclif) is also worth considering, but I
 personally have not tried that framework yet.
 
-
 ### Project Scaffolding
 
 The project scaffolding tools make it easy to create a new project using the
